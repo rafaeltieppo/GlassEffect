@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url('./fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    flex-direction: column
+}
+
+.container p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container a {
+    font-size: 1rem;
+    opacity: 0.7;
+    color: #fff;
+    margin-top: -25px;
+}
